@@ -75,7 +75,7 @@ Item {
         }
         return "audio-volume-high"; // fallback
     }
-    
+
     GridLayout {
         id: gridLayout
         flow: useVerticalLayout? GridLayout.TopToBottom : GridLayout.LeftToRight
@@ -106,7 +106,7 @@ Item {
                 readonly property var sink: model.PulseObject
                 readonly property var currentPort: model.Ports[ActivePortIndex]
                 readonly property string currentDescription: usePortDescription? currentPort ? currentPort.description : model.Description : model.Description
-                
+
                 Binding {
                     target: tab
                     property: "checked"

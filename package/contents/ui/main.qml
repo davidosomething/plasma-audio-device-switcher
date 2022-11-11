@@ -100,6 +100,7 @@ Item {
                 exclusiveGroup: buttonGroup
                 tooltip: currentDescription
 
+                Layout.fillHeight: true
                 Layout.fillWidth: true
                 Layout.preferredWidth: -1
 

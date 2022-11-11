@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "me@davidosomething.com",
+                "Name": "David O'Trakoun"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Simple widget to change the default audio output device/sink",
+        "EnabledByDefault": true,
+        "Icon": "org.kde.plasma.volume",
+        "Id": "org.kde.plasma.audiodeviceswitcher-davidosomething",
+        "License": "GPL",
+        "Name": "Audio Device Switcher (davidosomething fork)",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0.0",
+        "Website": "https://github.com/davidosomething/plasma-audio-device-switcher"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
